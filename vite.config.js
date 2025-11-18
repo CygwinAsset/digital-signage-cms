@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/digital-signage-cms/', // <-- TAMBAHKAN BARIS INI
+  base: '/digital-signage-cms/',
   build: {
     outDir: 'docs'
   }
